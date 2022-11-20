@@ -164,8 +164,9 @@ dependencies = [
 
 [[package]]
 name = "geometry-rs"
-version = "0.1.0"
-source = "git+http://github.com/ringsaturn/geometry-rs?rev=9c55183286c31d40581de853b932318e439b09b7#9c55183286c31d40581de853b932318e439b09b7"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c623c811aed432757098db05e02cae0975900b73ff574277ba3e580890d9c6f1"
 dependencies = [
  "float_next_after",
 ]
@@ -735,13 +736,14 @@ dependencies = [
 
 [[package]]
 name = "tzf-rel"
-version = "0.1.0"
-source = "git+http://github.com/ringsaturn/tzf-rel?rev=2a8a67f509c1731a8c4485e7f1f7683347c02175#2a8a67f509c1731a8c4485e7f1f7683347c02175"
+version = "0.0.2022-f5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8cecff56f43830c6db25277c698c1d0dbbec6fb55d3dc409032c502a30a22acc"
 
 [[package]]
 name = "tzf-rs"
 version = "0.1.0"
-source = "git+http://github.com/ringsaturn/tzf-rs?rev=868b272159d9cea3c2cd2d8d36a40080de6a9e83#868b272159d9cea3c2cd2d8d36a40080de6a9e83"
+source = "git+http://github.com/ringsaturn/tzf-rs?rev=9b39634447e22ab753fbfef4d2296407e5b141e8#9b39634447e22ab753fbfef4d2296407e5b141e8"
 dependencies = [
  "anyhow",
  "bytes",
